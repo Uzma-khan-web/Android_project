@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#7C92A2"
+    android:orientation="vertical"
+    android:gravity="start"
+    tools:context="com.example.interior_design_app.Bedroom_more">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/Tool4"
+            android:elevation="4dp"
+            android:background="#0F3B51"
+            app:title="Bedroom"
+            app:titleTextColor="@color/black"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="Image1"
+            tools:ignore="HardcodedText"
+            android:src="@drawable/bed" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="244dp"
+            android:layout_marginTop="320dp"
+            android:contentDescription="Image2"
+            android:src="@drawable/bed3"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            android:layout_marginTop="585dp"
+            android:contentDescription="Image3"
+            android:src="@drawable/bed4"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="295dp"
+            android:layout_marginTop="840dp"
+            android:contentDescription="Image4"
+            android:src="@drawable/bed5"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginTop="1140dp"
+            android:contentDescription="Image5"
+            android:src="@drawable/bed6"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginTop="1420dp"
+            android:contentDescription="Image6"
+            android:src="@drawable/bed7"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginTop="1700dp"
+            android:contentDescription="Image7"
+            android:src="@drawable/bed8"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginTop="1990dp"
+            android:src="@drawable/bed9"
+            android:contentDescription="Image8"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginTop="2270dp"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="Image9"
+            android:src="@drawable/bed10"
+            tools:ignore="HardcodedText"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
