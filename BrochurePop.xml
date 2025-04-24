@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D66565"
+    tools:context=".BrochurePopup">
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="569dp"
+        android:background="@drawable/popup_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/brochureTitle"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:text="INTERIOR   DESIGN"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/brochureDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:text="Transform Your Space with Professional Interior Design\n\nAre you looking to revitalize your home or office with a fresh, stylish look? Our professional interior design services bring together creativity, functionality, and your unique style to create spaces that inspire and delight.\n\nWith our expert team, you can expect innovative solutions tailored to your specific needs. Whether it’s a modern apartment, a cozy home, or a sophisticated office, we turn your vision into reality."
+            android:textSize="17sp"
+            tools:ignore="HardcodedText" />
+
+
+        <Button
+            android:id="@+id/closePopupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/close" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
