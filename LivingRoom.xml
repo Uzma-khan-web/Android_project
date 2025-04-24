@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#7C92A2"
+    android:orientation="vertical"
+    android:gravity="start"
+    tools:context=".Living_more">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/Tool"
+            android:elevation="4dp"
+            android:background="#0F3B51"
+            app:title="LIVING"
+            app:titleTextColor="@color/black"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:layout_marginTop="78dp"
+            android:src="@drawable/livi"
+            android:contentDescription="Img1"
+            tools:ignore="HardcodedText"/>
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:layout_marginTop="275dp"
+            android:src="@drawable/liv1"
+            android:contentDescription="Img2"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:layout_marginTop="510dp"
+            android:src="@drawable/liv"
+            android:contentDescription="Img3"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="745dp"
+            android:src="@drawable/liv5"
+            android:contentDescription="Img4"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_marginTop="1035dp"
+            android:src="@drawable/liv6"
+            android:contentDescription="Img5"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_marginTop="1270dp"
+            android:src="@drawable/livingroom"
+            android:contentDescription="Img6"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="297dp"
+            android:layout_marginTop="1520dp"
+            android:src="@drawable/liv8"
+            android:contentDescription="Img7"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="341dp"
+            android:layout_marginTop="1830dp"
+            android:src="@drawable/liv9"
+            android:contentDescription="Img8"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="348dp"
+            android:layout_marginTop="2190dp"
+            android:src="@drawable/liv10"
+            android:contentDescription="Img9"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_marginTop="2560dp"
+            android:src="@drawable/liv11"
+            android:contentDescription="Img10"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            android:layout_marginTop="2895dp"
+            android:src="@drawable/liv12"
+            android:contentDescription="Img11"
+            tools:ignore="HardcodedText"/>
+    </RelativeLayout>
+</ScrollView>
