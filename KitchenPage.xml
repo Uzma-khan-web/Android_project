@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#7C92A2"
+    android:orientation="vertical"
+    android:gravity="start"
+    tools:context=".Kitchen_more">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/Tool3"
+            android:elevation="4dp"
+            android:background="#0F3B51"
+            app:title="Kitchen"
+            app:titleTextColor="@color/black"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/furni"
+            android:contentDescription="Img1"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="390dp"
+            android:src="@drawable/furni5"
+            android:contentDescription="Img2"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="700dp"
+            android:src="@drawable/furni1"
+            android:contentDescription="Img3"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="1000dp"
+            android:src="@drawable/furni2"
+            android:contentDescription="Img4"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="1300dp"
+            android:src="@drawable/furni3"
+            android:contentDescription="Img5"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="1600dp"
+            android:src="@drawable/furni4"
+            android:contentDescription="Img6"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="1900dp"
+            android:src="@drawable/furni5"
+            android:contentDescription="Img7"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="2200dp"
+            android:src="@drawable/sofa"
+            android:contentDescription="Img8"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="2500dp"
+            android:src="@drawable/sofa3"
+            android:contentDescription="Img9"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="2800dp"
+            android:src="@drawable/kitchenfur"
+            android:layout_marginBottom="40dp"
+            android:contentDescription="Img10"
+            tools:ignore="HardcodedText"/>
+
+    </RelativeLayout>
+
+</ScrollView>
