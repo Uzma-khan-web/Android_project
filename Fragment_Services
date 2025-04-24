@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9B534F"
+    tools:context=".ServicesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Our Services"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="563dp"
+            android:layout_marginTop="30dp"
+            android:text="We offer a range of design services, including:\n\nResidential Interior Design:\nTransform your home into a haven with personalized living spaces that reflect your taste and personality.\n\nCommercial Design:\nWe design offices, retail spaces, and restaurants that not only look great but also improve functionality and customer experience.\n\nSpace Planning:\nMaximize the potential of your space with efficient layouts and smart design solutions.\n\nFurniture and Decor Selection:\nWe help you select the perfect furniture, artwork, and accessories to complement your space.\n\nLighting Design:\nProper lighting can change the entire mood of a room. We design lighting solutions that are both functional and stylish."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</FrameLayout>
